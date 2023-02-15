@@ -55,3 +55,9 @@ fix_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # write a new image
 # cv2.imwrite('totally_new.jpg', new_img)
+
+# creates a larger canvas to display image, as the image is scaled to fit the canvas anyways
+# fig = plt.figure(figsize=(10,8))
+# ax = fig.add_subplot(111)
+# ax.imshow(fix_img)
+# plt.show()
