@@ -16,8 +16,8 @@ img = cv2.imread('../DATA/00-puppy.jpg')
 # Matplotlib --> RGB expected Red, Green, Blue; in that order
 # OpenCV --> BGR expected Blue, Green, Red; in that order
 fix_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-# plt.imshow(fix_img)
-# plt.show()
+plt.imshow(fix_img)
+plt.show()
 
 """There are other cmap types, like 'magma' """
 # img_gray = cv2.imread('../DATA/00-puppy.jpg', cv2.IMREAD_GRAYSCALE)
